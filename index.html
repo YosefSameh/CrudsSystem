@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrudsSystem</title>
+
+    <link rel="stylesheet" href="main.css">
+    <!-- font awsem -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- صوره جنب اسم الصفحة  -->
+    <link rel="web site icon" href="">
+
+</head>
+
+
+<body class="bg-black text-white">
+
+
+<div class="container">
+    <div class="text-center">
+        <h2>CRUDS</h2>
+    </div>
+    <div class="">
+     <form action="">
+        <input type="text" placeholder="Titel"class="w-100 mb-3 title" checked>
+        <div class="d-flex justify-content-between mb-4">
+            <input  onkeyup="getotel()" type="number" placeholder="Price" checked class="price">
+            <input  onkeyup="getotel()" type="number" placeholder="Taxes"checked class="taxes">
+        <input  onkeyup="getotel()" type="number" placeholder="Ads" class="ads">
+        <input onkeyup="getotel()" type="number" placeholder="Discount" class="discount">
+        <span >totel:<span class="totel"></span></span>
+    </div>
+
+    <input type="number" placeholder="Count" class="w-100 mb-4 count">
+
+    <button class="w-100 mb-4 creat" id="creat">Creat</button>
+
+    <input type="text"  onkeyup="Search(this.value)" placeholder="Search" class="w-100 search">
+
+    <button class="text-center w-100 my-4 delet">DeletAll(<span class="span">0</span>)</button>
+     </form>
+
+    </div>
+    <hr>
+    <div class="">
+        <div class="d-flex  justify-content-between ">
+
+            <p>id</p>
+            <p>Titel</p>
+        <p>Price</p>
+        <p>Taxes</p>
+        <p>Ads</p>
+        <p>Discount</p>
+        <p>Totel</p>
+        <p>Update</p>
+        <p>Delet</p>
+        </div>
+        <div class="d-flex flex-column  justify-content-between text-center align-items-center">
+
+        
+            <div class="table d-flex flex-column ">
+                
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+    <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
+        <nav  class="d-flex bg-warning "><h3 class="text-white ">logo  </h3>
+        <div class="d-flex justify-content-center ms-5">
+            <div class="bg-white d-flex align-items-center justify-content-center ">
+                <i class="fa-solid fa-cart-shopping me-3"></i>
+                <h4 id="bages">0</h4>
+            </div>
+        </div>
+        </nav>
+
+        <div class="bg-secondary d-flex flex-column  w-50  mt-3">
+            <div class="bg-warning  w-50 d-flex my-3 mx-3 ">
+                <h4 class="">My Cart</h4>
+            </div>
+                <div class="cart-item d-flex" id="cart-item">
+                    
+                </div>
+                <hr>
+                <div class="justify-content-between flex-row d-flex">
+                    <h4>totle</h4>
+                <h4 class="me-2">0.00$</h4>
+
+                </div>
+                        </div>
+
+<div class=" d-flex" id="product"></div>
+    </div> -->
