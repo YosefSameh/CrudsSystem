@@ -66,6 +66,9 @@ if (title.value != "" && price.value != "" && count.value <=600) {
                 products.push(collect)
             }
         }else{
+            for (let i = 0; i < collect.Count; i++) {
+                    products.push(collect)
+                }
             products[index] = collect
             creat.innerHTML = "Creat"
         }
